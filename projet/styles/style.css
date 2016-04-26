@@ -1,0 +1,218 @@
+<--
+* {    
+ border-width:1px;  
+ border-style:dotted;  
+ border-color:#FF0000;  
+ padding:0px;  
+ margin:0px;  
+}  
+-->
+
+.ligne{
+	display:none;
+}
+
+html{    
+ background-color:#41AFC3; 
+}  
+
+body{    
+ background-color:#A5E4EF;  
+ width:1000px;  
+ margin-right:auto;  
+ margin-left:auto;  
+ font-family:monospace;
+ font-size:16px;
+ padding-left:3%;
+ padding-right:3%;
+ padding-bottom:15px;
+ padding-top:1px;
+ border-radius:5px;
+ }
+ 
+#coeur{
+	width:30px;
+}
+
+button{
+	padding-right:10px;
+}
+
+#div1{
+	display:none;
+}
+ 
+ 
+#corps{
+ height:750px;
+}
+ 
+ #logo{
+ }
+ 
+ 
+ #menu
+{
+    padding-bottom : 50px;
+	margin-left : 10px;
+	margin-right:250px;
+}
+
+ #onglets{
+    font : 25px Batang, monospace;
+    list-style-type : none;
+    margin-left : 0;
+    position : absolute;
+    border : 1px solid transparent;
+    padding : 0;
+    margin-top : 0;
+    width : 1000px;
+}
+
+ #onglets li /* Le fond des onglets non sélectionnés */
+{
+    float : left;
+    height : 45px; /* Hauteur onglet*/
+	width:240px;
+    background-color: #41AFC3;
+    margin : 3px 0 1px 0 !important;  /* Pour les navigateurs autre que IE */
+    margin : 2px 0 1px 0;  /* Pour IE  */
+    border : 1px solid white;
+	border-radius:5px;
+}
+
+#onglets a /* Le texte des onglets */
+{
+    display : block;
+    color : white;
+    text-decoration : none;
+    padding : 10px;
+	margin-left : 10px;
+	margin-right:10px;
+}
+
+#onglets li:hover  /* Quand on passe la souris sur l'onglet  */
+{
+    background : #24616C;
+}
+
+#onglets li.active /* L'onglet sélectionné  */
+{
+    border: 1px solid white;
+    background-color: #24616C;
+	 border-radius:5px;
+
+}
+
+ #footer{
+ height:20px;
+ text-align:center;
+ }
+
+
+img{ 
+ width:70%;
+ margin-right:15%;
+ margin-left:15%;
+}
+
+h1{ 
+ color:#41AFC3;
+ text-align:center;
+ font-size:50px;
+ margin:15px;
+}
+
+h2{ 
+ color:#41AFC3;
+ text-align:center;
+ font-size:25px;
+} 
+
+.italique
+{ 
+ font-style : italic;
+}  
+
+ul{ 
+ padding:15px;
+}
+
+.prix{ 
+ color:red;
+ font-size:20px;
+ padding-bottom:15px;
+}  
+
+#devise{ 
+ text-decoration:blink;
+ color:#41AFC3;
+ text-align:center;
+} 
+
+a{ 
+ color:#0C7284;
+}  
+
+a:visited{ 
+ color:#07515E;
+}  
+
+a:hover{ 
+ color:red;
+}  
+
+table{ 
+ border-collapse:collapse;
+ border:none;
+} 
+
+.fonce{ 
+ background-color:#DA7DDA;
+}
+
+.clair{
+ background-color:#E8AEE8;
+}
+
+.none {
+ border-style:none;
+}  
+
+th{ 
+ background-color:#50BED1;
+ padding:15px;
+ border:none;
+} 
+
+tr, td{ 
+ padding:7px;
+ border:none;
+} 
+
+.accueil{ 
+ padding:10px;
+ border-radius:5px;
+ background-color:#5BCFE3;
+} 
+
+.photo{ 
+ width:50px;
+}
+
+.container .content {
+ display: none;
+ padding : 5px;
+}
+
+#carte{
+ margin-left:auto;
+ margin-right:auto;
+ margin-top:20px;
+}
+
+
+
+{ 
+
+}  
